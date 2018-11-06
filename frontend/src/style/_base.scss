@@ -1,0 +1,26 @@
+.fa-plus-square {
+  color: $primary;
+}
+
+.fa-trash-alt {
+  color: $green;
+}
+
+.carousel-container {
+  width: 900px;
+  height: 800px;
+  margin: auto;
+  padding-top: 5em;
+}
+
+@media (max-width: 900px) {
+  .carousel-container {
+    width: auto;
+    height: auto;
+  }
+}
+
+#main-container {
+  margin: auto;
+
+}

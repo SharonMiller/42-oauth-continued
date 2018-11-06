@@ -1,0 +1,47 @@
+
+@import '../../style/vars';
+
+.app {
+  margin-top: 3em;
+  margin: auto;
+  max-width: 50%;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+
+  h2 {
+    margin-top: 10%;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+  }
+
+  h3 {
+    margin-top: 3em;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    
+  }
+  
+  .list-form {
+    margin-top: 20%;
+    margin: auto;
+    text-align: center;
+  }
+  button {
+    margin-top: 10%;
+    margin: auto;
+    padding-left: .3em;
+    padding-right: .3em;
+    
+  }
+  #item-form {
+    margin-top: 20%;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+  }
+
+  
+  
+}
