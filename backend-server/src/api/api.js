@@ -24,7 +24,7 @@ router.get('/oauth', (req, res, next) => {
 
   authorize(req)
     .then(token => {
-      res.cookie('token', token);
+      res.cookie('X-MyChat-Token', token);
       res.redirect(process.env.REDIRECT_CLIENT_URI);
 
     })

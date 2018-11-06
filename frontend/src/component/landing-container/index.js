@@ -2,7 +2,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import * as route from '../../action/route.js'
-import * as querystring from 'querystring'
 
 export class LandingContainer extends React.Component {
   render() {

@@ -44,7 +44,6 @@ export class SignupContainer extends React.Component {
   handleSubmit(e) {
     e.preventDefault()
     if (!this.state.usernameError && !this.state.emailError && !this.state.passwordError) {
-      console.log('whoat')
       return this.props.signup({
         email: this.state.email,
         username: this.state.username,
