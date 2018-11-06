@@ -29,7 +29,7 @@ let isRunning = false;
 app.start = (port) => {
   if (isRunning) {
     console.log(`Server already running`);
-
+    //add io socket subscibers in here
   } else {
     app.listen(port, err => {
       if (err) { throw err; }
