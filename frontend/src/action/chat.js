@@ -1,1 +1,5 @@
-//chat actions
+'use strict';
+export const message = payload => ({
+  type: 'MESSAGE',
+  payload,
+});
